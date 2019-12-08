@@ -35,7 +35,7 @@ public class SendAttachmentInEmail {
 
       Properties props = new Properties();
       props.put("mail.smtp.auth", "true");
-      props.put("mail.smtp.starttls.enable", "true");
+      props.put("mail.smtp.starttls.enable", "true"); // make sure https://myaccount.google.com/security less secure apps turned on
       props.put("mail.smtp.host", host);
       props.put("mail.smtp.port", "587");
 
